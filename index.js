@@ -5,10 +5,6 @@ const mysql = require('mysql2/promise');
 const app = express();
 const port = 3000;
 
-// ... require('express') dll ...
-const mysql = require('mysql2/promise'); // Pastikan ini ada
-// ...
-
 // --- KONEKSI DATABASE ---
 // Pastikan variabelnya bernama 'pool' dan menggunakan 'createPool'
 const pool = mysql.createPool({
